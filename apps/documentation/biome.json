@@ -1,0 +1,13 @@
+{
+  "$schema": "https://biomejs.dev/schemas/1.6.4/schema.json",
+  "extends": ["./node_modules/@namelessdev/biomeconfig/biome.json"],
+  "organizeImports": {
+    "enabled": true
+  },
+  "linter": {
+    "enabled": true,
+    "rules": {
+      "recommended": true
+    }
+  }
+}

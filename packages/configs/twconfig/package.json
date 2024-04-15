@@ -1,0 +1,16 @@
+{
+	"name": "@namelessdev/twconfig",
+	"version": "0.0.1",
+	"description": "",
+	"keywords": [],
+	"author": "Vladimir Below <vladimirviooi@gmail.com>",
+	"license": "ISC",
+	"private": true,
+	"files": ["./postcss.config.js", "./tailwind.config.ts"],
+	"devDependencies": {
+		"autoprefixer": "^10.0.1",
+		"postcss": "^8",
+		"postcss-nesting": "^12.0.2",
+		"typescript": "^5.2.2"
+	}
+}

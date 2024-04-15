@@ -1,0 +1,8 @@
+{
+	"extends": "@namelessdev/tsconfig/react-library.json",
+	"compilerOptions": {
+		"outDir": "build"
+	},
+	"include": ["src"],
+	"exclude": ["node_modules", "build"]
+}

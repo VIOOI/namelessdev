@@ -1,0 +1,11 @@
+{
+	"name": "@namelessdev/tsupconfig",
+	"version": "0.0.1",
+	"private": true,
+	"license": "MIT",
+	"files": ["tsup.config.js"],
+	"devDependencies": {
+		"terser": "^5.27.0",
+		"tsup": "^8.0.1"
+	}
+}

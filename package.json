@@ -1,20 +1,22 @@
 {
-  "name": "nameless",
-  "private": true,
-  "scripts": {
-    "build": "turbo build",
-    "dev": "turbo dev",
-    "lint": "turbo lint",
-    "format": "prettier --write \"**/*.{ts,tsx,md}\""
-  },
-  "devDependencies": {
-    "@repo/eslint-config": "workspace:*",
-    "@repo/typescript-config": "workspace:*",
-    "prettier": "^3.2.5",
-    "turbo": "latest"
-  },
-  "packageManager": "pnpm@8.9.0",
-  "engines": {
-    "node": ">=18"
-  }
+	"name": "nameless",
+	"private": true,
+	"scripts": {
+		"build": "turbo build",
+		"dev": "turbo dev",
+		"lint": "turbo lint",
+		"format": "prettier --write \"**/*.{ts,tsx,md}\""
+	},
+	"devDependencies": {
+		"@biomejs/biome": "1.6.4",
+		"@changesets/cli": "^2.25.2",
+		"@namelessdev/tsconfig": "workspace:*",
+		"@namelessdev/biomeconfig": "workspace:*",
+		"prettier": "^3.2.5",
+		"turbo": "latest"
+	},
+	"packageManager": "pnpm@8.9.0",
+	"engines": {
+		"node": ">=18"
+	}
 }

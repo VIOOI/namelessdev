@@ -1,0 +1,55 @@
+{
+  "name": "@namelessdev/slots",
+  "version": "0.0.0",
+  "description": "",
+  "main": "./build/index.js",
+  "types": "./build/index.d.ts",
+  "module": "./build/esm/index.js",
+  "author": "Vladimir Below <vladimirviooi@gmail.com>",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "exports": {
+    ".": {
+      "require": {
+        "types": "./build/index.d.ts",
+        "default": "./build/index.js"
+      },
+      "import": {
+        "types": "./build/index.d.ts",
+        "default": "./build/esm/index.js"
+      }
+    }
+  },
+  "files": [
+    "build/**"
+  ],
+  "scripts": {
+    "lint": "pnpm biome lint .",
+    "lint-fix": "pnpm biome lint . --apply",
+    "format": "pnpm biome format . --write",
+    "check": "pnpm biome check --apply .",
+    "build": "tsup",
+    "dev": "tsup --watch"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "1.6.4",
+    "@namelessdev/biomeconfig": "workspace:*",
+    "@namelessdev/tsconfig": "workspace:*",
+    "@types/react": "^18.2.66",
+    "@types/react-dom": "^18.2.18",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "terser": "^5.27.0",
+    "tsup": "^8.0.1",
+    "typescript": "^5.3.3"
+  },
+  "peerDependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "dependencies": {
+    "effect": "^2.4.0"
+  }
+}

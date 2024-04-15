@@ -1,0 +1,17 @@
+{
+	"$schema": "https://json.schemastore.org/tsconfig",
+	"display": "React Library",
+	"extends": "./base.json",
+	"compilerOptions": {
+		"target": "ES2022",
+		"lib": ["DOM", "ESNext", "DOM.Iterable"],
+		"jsx": "preserve",
+		"sourceMap": true,
+		"outDir": "./build",
+		"importHelpers": true,
+		"forceConsistentCasingInFileNames": true,
+		"strict": true,
+		"alwaysStrict": true,
+		"noEmit": true
+	}
+}
